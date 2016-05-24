@@ -1,0 +1,8 @@
+---
+parameters:
+  someParameter:
+    name: some-param
+    in: query
+    description: An awesome param
+    type: string
+    required: true

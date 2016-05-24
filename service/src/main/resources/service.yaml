@@ -1,0 +1,26 @@
+---
+swagger: '2.0'
+
+info:
+  version: "1.0"
+  title: Service API
+  contact:
+    name: Sohrab
+    email: sohrab.hosseini@gmail.com
+
+host: api.vivaenergy.com.au
+basePath: /api/v1
+schemes:
+  - https
+
+paths:
+  /things:
+    get:
+      summary: Retrieve matching Things
+      produces:
+        - application/json
+      parameters:
+        - $ref: './parameters.yaml#/parameters/someParameter'
+      responses:
+        200:
+          description: A-OK
