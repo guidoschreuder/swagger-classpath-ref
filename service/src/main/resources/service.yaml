@@ -8,7 +8,7 @@ info:
     name: Sohrab
     email: sohrab.hosseini@gmail.com
 
-host: api.vivaenergy.com.au
+host: github.com/sohrab-
 basePath: /api/v1
 schemes:
   - https
