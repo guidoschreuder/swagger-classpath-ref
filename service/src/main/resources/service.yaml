@@ -20,7 +20,7 @@ paths:
       produces:
         - application/json
       parameters:
-        - $ref: './parameters.yaml#/parameters/someParameter'
+        - $ref: '/parameters.yaml#/parameters/someParameter'
       responses:
         200:
           description: A-OK
